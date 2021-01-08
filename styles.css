@@ -1,0 +1,48 @@
+body {
+    max-width: 90%;
+    margin: auto;
+    font-size: 100%;
+    /* background-color: #f0ffff; */
+    /* background-image: linear-gradient(28deg, rgb(99, 233, 215), rgb(140, 140, 191)); */
+    background-image: url("pexels-bri-schneiter-346529.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+blockquote {
+    max-width: 45%;
+    margin: auto;
+}
+
+p {
+    font-family: palatino;
+    word-spacing: 1px;
+    font-size: 18px;
+    color: #000069;
+}
+
+a:link {
+    color: #4169e1;
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+a:visited {
+    color: #008080;
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+a:hover {
+    background-color: #ff8c00;
+    text-decoration: none;
+    }
+
+q {
+    font-size: 160%;
+    background-color: #d3d3d3;
+    border-left: 3px dashed;
+    padding: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
