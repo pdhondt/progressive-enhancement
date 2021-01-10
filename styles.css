@@ -2,12 +2,22 @@ body {
     max-width: 90%;
     margin: auto;
     font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
     /* background-color: #f0ffff; */
     background-image: linear-gradient(28deg, rgb(99, 233, 215), rgb(140, 140, 191));
     /* background-image: url("pexels-bri-schneiter-346529.jpg"); */
     /* background-repeat: no-repeat; */
     /* background-position: bottom right; */
     /* background-size: cover; */
+}
+
+img {
+    float: right;
+    margin-left: 10px;
+}
+
+header > h1 {
+    background-color: #ffff00;
 }
 
 blockquote {
@@ -20,6 +30,10 @@ p {
     word-spacing: 1px;
     font-size: 18px;
     color: #000069;
+}
+
+p.firstpar {
+    font-weight: bold;
 }
 
 a:link {
@@ -46,4 +60,57 @@ q {
     padding: 30px;
     margin-top: 80px;
     margin-bottom: 80px;
+    font-style: italic;
+}
+
+.villagers {
+    border-left-color: #dc143c;
+}
+
+.farmer {
+    border-left-color: #ffd700;
+}
+
+.good {
+    text-transform: capitalize;
+    color: #008000;
+}
+
+.bad {
+    text-transform: capitalize;
+    color: #ff0000;
+}
+
+table, tr, th, td {
+    border: #000000 1px solid;
+    border-collapse: collapse;
+    width: 30%;
+    caption-side: bottom;
+}
+
+tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #ffA500;
+    height: 30px;
+}
+
+td {
+    text-align: center;
+}
+
+th, td {
+    padding: 5px;
+}
+
+p.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
